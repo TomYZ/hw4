@@ -1,0 +1,12 @@
+make: make
+
+usage:
+
+hw4 tablecheck -t=tablefile
+hw4 encrypt -k=key -t=tablefile [file]
+hw4 decrypt -k=key -t=tablefile [file]
+hw4 encrypt3 -k=key3 -t=tablefile [file]
+hw4 decrypt3 -k=key3 -t=tablefile [file]
+
+clean: make clean
+
